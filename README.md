@@ -1,1 +1,19 @@
-# PyBer_Analysis
+# PyBer_Analysis Report
+## Background and Results
+The purpose of this analysis was to do insightful review of the city data frame merged with the ride data frame to present major and minor finding to the client. Ther are two technical deliverables that were extrapolated from the two datasets provided. The insights could be used to determine future strategic initiatives and business intelligence relevant to revenue and business goals.
+### Technical Analysis
+How did you analyze the data to create the technical deliverables?
+After merging the DataFrames, a groupby function was used to extrapolate Total Rides, Total Drivers, and Total Fares by City Type. The highest averrage fare per ride and the highest average fare per driver were determined to be that of the Rural type (average fare ride was $34.62 and the average fare per driver was $55.49). 
+### Results
+After further analysis of the summary dataFrame and the Multiple- Line Graph we can note that the urban ride share revenue at approximately $40,000 is doulbe the revenue of the suburban and 10 times the rural ride share types. Evenmore, the line graph depicts upticks in all types for late February and a consistent uptick for urban ride share throughout the months viewed compared to the other city types.
+### Summary
+The line plot provides the client with a great visualization of the Total Fare by City Type for multiple months in order to provide business intelligence of the ride share program. The revenue generated in urban areas is definitely more significant but we must note that the vaerage fare per driver is more than triple the urban rride share. Possibly due to the longer distance of travel but this would need to be determined through further analysis.
+## Challenges Encountered and Overcome
+I had to use the groupby properly to create the summary DataFrame and I had an issue with formating the last column of the summary. I also could not save the figures of the summary dataframes so could not reproduce them for this report. The line plot was saved bit I was unable to add it to the summary as well.  The object oriented method was more difficult for me to conceptualize so I spent a day trying to make sure i reviewed it and recieved some help to get the line graph to show.
+### Challenges and Difficulties Encountered
+I had many challenges but with the help of the TAs, LAs, tutor and students I was able to complete this challenge. I will continue to rerview tutorials, and google search for recommendations. I spend more time reviewing and stdying key concepts. Its a great learning process and I am improving each day. 
+### Additional Analysis 1
+Based on the data from the different city types, what recommendations would you give the CEO for addressing any disparities among the city types? There are more drivers in the urban areas which is the reason for a lower average fare per driver so I recommend reevaluating the number of drivers in each city type. There may be a shortage of rural drivers but we would need to look at data that would provide information on missed opportunities and rides that were unable to be completed for various reasons.
+### Additional Analysis 2
+Provide two additional analyses you could do to gain more insight into the data, like using other datasets.
+What technical steps would you take to perform the additional analyses? I'd like to conduct some predictive modeling based on the current datafranes that we have and I'd like to obtain more dataframesfrom competitors that could help see the trends for ride share for all city types. Competitve intelligence would help determine if there are missed opportunities and we could also get into detailed analyses of the average time and distance for each ride share type. We could look at expenses per ride to determine profitability of the different ride shares by city type. The more data analysis the better we can advise the CEO for investment and business planning purposes.
